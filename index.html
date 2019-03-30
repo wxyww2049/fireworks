@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>烟花2.1</title>
+
+<style>
+input#Uright {    position: fixed;
+    line-height: 500px;
+    text-align: center;
+    margin-top:-15px;
+    z-index: 10; 
+  /* Firefox 4 */
+    -moz-transition-property:top; 
+    -moz-transition-duration:0.7s;
+
+    /* Safari and Chrome */
+    -webkit-transition-property:top; 
+    -webkit-transition-duration:0.7s;
+
+    /* Opera */
+    -o-transition-property:top;
+    -o-transition-duration:0.7s;
+
+}
+
+html,body{height:100%;margin:0;padding:0}
+ul,li{text-indent:0;text-decoration:none;margin:0;padding:0}
+img{border:0}
+body{background-color:#000;color:#999;font:100%/18px helvetica, arial, sans-serif}
+canvas{cursor:crosshair;display:block;left:0;position:absolute;top:0px;z-index:1;height: 100%;width: 100%;}
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+
+<!-- 
+    <div class="ni">
+        <span onclick="ChangePicture()"><em>-> Click here!</em></span><br><br>
+    </div> -->
+
+
+<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+
+
+
+<div class="yanhua">
+
+<script type="text/javascript" src="js/min.js"></script>
+</div>
+
+
+<script>
+  function RandomNum(Min,Max){
+        var Range=Max-Min;
+        var Rand=Math.floor(Math.random()*10000+1);
+        return Min+Rand%(Range+1);
+        return(Min+Math.round(Rand * Range));
+    }
+    function ChangePicture(){
+        dx=document.body;
+        dy=RandomNum(1,8);
+        if (dy==1){
+            dx.style.background="url(http://t1.hxzdhn.com/uploads/tu/201704/9999/470073b25b.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        }else if (dy==2){
+            dx.style.background="url(http://t1.hxzdhn.com/uploads/tu/201704/9999/2f22662cf5.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        }else if (dy==3) {
+              dx.style.background="url(http://t1.hxzdhn.com/uploads/tu/201704/9999/fdc47fb90d.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        }
+        else if(dy==4) {
+            dx.style.background="url(http://t1.hxzdhn.com/uploads/tu/201704/9999/6af68d1057.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        } else if(dy==5) {
+            dx.style.background="url(http://pic.bizhi360.com/bbpic/63/4963.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        }  else if(dy==6) {
+            dx.style.background="url(http://pic1.win4000.com/wallpaper/3/58649f88d0486.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        }  else if(dy==7) {
+            dx.style.background="url(http://pic1.win4000.com/wallpaper/3/58649f80a22c9.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        } else if(dy==8) {
+            dx.style.background="url(http://pic1.win4000.com/wallpaper/3/58649f73eaa58.jpg) 50% 50% no-repeat fixed";
+            dx.style.backgroundSize="100% 100%";
+        } 
+
+}
+    ChangePicture();
+</script>
+
+<div class="col" >
+<input type="image" id="Uright" src="http://upload-images.jianshu.io/upload_images/13850502-cb6786d80efc9f2f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" onmouseover="   this.style.top='10px';        this.src='http://upload-images.jianshu.io/upload_images/13850502-aebef4f7c9d4b5c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' " onmouseout="   this.style.top='-80px';   this.src='   http://upload-images.jianshu.io/upload_images/13850502-c7743b8e71b63562.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' " onclick="ChangePicture()" style="top: -80px;">
+</div>
+
+</body>
+</html>
