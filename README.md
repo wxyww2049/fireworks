@@ -4,7 +4,8 @@
 
 ### 如下
 
-![](https://upload-images.jianshu.io/upload_images/13850502-de518cc6f576273f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://ws2.sinaimg.cn/large/005S5cb6ly1g1lq6j8896j30yg0mpn92.jpg
+)
 
 ### 预览
 
