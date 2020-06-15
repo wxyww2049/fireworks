@@ -17,8 +17,7 @@
 
 ### 如下
 
-![](https://upload-images.jianshu.io/upload_images/13850502-da6578e15d3b65d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+https://upload-images.jianshu.io/upload_images/13850502-da6578e15d3b65d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ## 烟花2.1
 
 新增背景图片和切换背景按钮
@@ -29,4 +28,4 @@
 
 ### 预览
 
-[https://blog.wxyww.top/yanhua2/](https://blog.wxyww.top/yanhua2/)
+[https://wxyww2049.github.io/fireworks](https://wxyww2049.github.io/fireworks)
